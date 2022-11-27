@@ -5,6 +5,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 
 
 .containerPrincipal{
@@ -19,6 +20,7 @@
     padding-top: 30px;
     gap: 170px;
     align-items: center;
+    padding-bottom: 10px;
     
     
     
@@ -82,7 +84,7 @@ ul {
       justify-content: center;
       padding-left: 50px;
       padding-right: 50px;
-      padding-top: 0px;
+      padding-top: 10px;
      
       
       
@@ -93,10 +95,10 @@ ul {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-left: 100px;
-      padding-right: 210px;
-      padding-top: 20px;
-      gap: 10px;
+      padding-left: 250px;
+      padding-right: 230px;
+      padding-top: 110px;
+      gap: 30px;
       background-color: #140d0f;
                 
   }	
@@ -104,47 +106,70 @@ ul {
   .artistas h2{
     font-family: 'Source Sans Pro', sans-serif;
       font-weight: 700;
-      color: #ffffff;
+      color: #fcf8f7;
       letter-spacing:1px;
   }
 
-  .paul{
+  .miguel{
     display: flex;
-    
+    color: #fcf8f7;
+
     
   }
 
-  .autorpaul{
+
+
+  
+
+  
+
+  .autormiguel{
     font-family: 'Source Sans Pro', sans-serif;
       font-weight: 700;
       font-size:25px
   }
 
-  .fechapaul{
+  .fechamiguel{
     font-family: 'Source Sans Pro', sans-serif;
       font-weight: 700;
       font-size: 12px;
       letter-spacing:0.4px;
+      color: #7f746e;
   }
  
  
-  .textopaul{
+  .textomiguel{
     display: flex;
     flex-direction: column;
-    background-color: #404040;
+    background-color: #000000;
     padding-left: 90px;
-   
+    
+    
     padding-top: 30px;
+    
     gap: 10px;
     
-    
+  
    
   }
 
-  .descripcionpaul{
-   padding-right: 150px;
+  .descripcionmiguel{
     
+   padding-right: 150px;
+   font-family: 'Source Sans Pro', sans-serif;
+   line-height:24px;
+    font-size: 16px;
    
+  }
+
+  .descripcionmiguel p{
+    
+    padding-top: 10px;
+  }
+
+  .miguelnegrita{
+    font-weight: 700;
+    padding-bottom: 20px;
   }
 
   .ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0; }
@@ -670,7 +695,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-button {
-    display: none;
+    display: block;
     
     width: 50px; height: 50px; background-size: 16px 16px; top: 50%; margin-top: -25px;
     color: #fff; background-color: rgba(0, 0, 0, 0.0);
@@ -728,7 +753,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-0 .ism-img {
-    width: 100%;
+    width: 120%;
     top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
 }
 
@@ -755,7 +780,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-3 .ism-img {
-    width: 120%;
+    width: 100%;
     top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
 }
 
@@ -1032,3 +1057,19 @@ p.ism-badge a.ism-link:hover {
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
 }
 
+
+body::-webkit-scrollbar {
+  width: 8px;
+  /* width of the entire scrollbar */
+}
+
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(164, 164, 175);
+  /* color of the scroll thumb */
+  border-radius: 10px;
+  /* roundness of the scroll thumb */
+  border: px solid rgb(168, 165, 159);
+  /* creates padding around scroll thumb */
+}
