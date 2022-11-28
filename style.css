@@ -2,11 +2,17 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 
+body{
+ 
+  background-color: #140d0f;
+}
 
 .containerPrincipal{
   background: rgb(37,34,49);
@@ -16,8 +22,8 @@
 .header{
     display: flex;
     
-    padding-left: 260px;
-    padding-top: 30px;
+    padding-left: 240px;
+    padding-top: 2px;
     gap: 170px;
     align-items: center;
     padding-bottom: 10px;
@@ -29,6 +35,13 @@
 
 .logo{
     padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo svg{
+    width: 150px;
+   
+  
 }
 
 .nav{
@@ -49,7 +62,7 @@ bottom: -2px;
     padding: 24px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-    font-size: 12.5px;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing:2px
 }
@@ -84,11 +97,24 @@ ul {
       justify-content: center;
       padding-left: 50px;
       padding-right: 50px;
-      padding-top: 10px;
+      
      
       
       
   }
+
+ 
+  
+  .sep img{
+width: 100%;
+height: 100%;
+position: relative;
+left: -610px;
+
+    
+  }
+
+
 
 
   .artistas{
@@ -97,8 +123,9 @@ ul {
       justify-content: center;
       padding-left: 250px;
       padding-right: 230px;
-      padding-top: 110px;
-      gap: 30px;
+      padding-top: 90px;
+      
+      gap: 10px;
       background-color: #140d0f;
                 
   }	
@@ -113,28 +140,28 @@ ul {
   .miguel{
     display: flex;
     color: #fcf8f7;
+    padding-bottom: 90px;
 
     
   }
 
 
 
-  
-
-  
-
   .autormiguel{
     font-family: 'Source Sans Pro', sans-serif;
       font-weight: 700;
-      font-size:25px
+      font-size:20px;
+      
+      
   }
 
   .fechamiguel{
     font-family: 'Source Sans Pro', sans-serif;
       font-weight: 700;
-      font-size: 12px;
+      font-size: 10px;
       letter-spacing:0.4px;
       color: #7f746e;
+      
   }
  
  
@@ -142,12 +169,12 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #000000;
-    padding-left: 90px;
+    padding-left: 50px;
     
     
     padding-top: 30px;
     
-    gap: 10px;
+    gap: 4px;
     
   
    
@@ -155,10 +182,10 @@ ul {
 
   .descripcionmiguel{
     
-   padding-right: 150px;
+   padding-right: 130px;
    font-family: 'Source Sans Pro', sans-serif;
    line-height:24px;
-    font-size: 16px;
+    font-size: 13.4px;
    
   }
 
@@ -169,9 +196,10 @@ ul {
 
   .miguelnegrita{
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
+  
   .ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0; }
   .ism-slider {
     overflow: hidden;
