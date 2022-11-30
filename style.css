@@ -10,32 +10,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 
+
+
 body{
  
   background-color: #140d0f;
+
 }
 
-.containerPrincipal{
-  background: rgb(37,34,49);
+
+
+.topheader {
   background: linear-gradient(175deg, rgba(37,34,49,1) 0%, rgba(20,13,15,1) 35%);
-  
+  transition: 0.5s ease;
+  min-height: 100px;
+  top: -100px;
 }
-
-body{
-  scroll-behavior: smooth;
-}
-header{
+.active {
+  background: linear-gradient(175deg, rgba(37,34,49,1) 0%, rgba(20,13,15,1) 35%);
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 4;
- 
 }
 
 
 
-
-
-.header{
+.headerr{ 
     display: flex;
     
     padding-left: 240px;
@@ -45,10 +45,8 @@ header{
     padding-bottom: 10px;
     z-index: 5;
     
-    
-    
+        
 }
-
 
 
 

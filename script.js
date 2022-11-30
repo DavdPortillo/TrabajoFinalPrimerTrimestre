@@ -55,3 +55,18 @@ a.preventDefault&&a.preventDefault();a.returnValue=!1},M=function(a){a||(a=windo
 document.documentElement.scrollTop;this.xDiff=Math.abs(this.x-b);this.yDiff=Math.abs(this.y-c)}},w={get:function(a){var b={left:0,top:0};void 0!==a.getBoundingClientRect&&(b=a.getBoundingClientRect());return[b.left,b.top]}},r={transform:e("transform"),perspective:e("perspective"),backfaceVisibility:e("backfaceVisibility")},u=["webkit","moz"],m=window.requestAnimationFrame,x=window.cancelAnimationFrame,v=0;v<u.length&&!m;++v)m=window[u[v]+"RequestAnimationFrame"],x=window[u[v]+"CancelAnimationFrame"]||
 window[u[v]+"CancelRequestAnimationFrame"];m||(m=function(a){return setTimeout(a,25)},x=clearTimeout);return d});
 
+var lastScroll = 0;
+var isScrolled = false;
+window.addEventListener("scroll", function () {
+  var topHeader = document.querySelector(".topheader");
+  var currentScroll =
+    window.pageYOffset ||
+    document.documentElement.scrollTop ||
+    document.body.scrollTop ||
+    0;
+  var scrollDirection = currentScroll < lastScroll;
+  var shouldToggle = isScrolled && scrollDirection;
+  isScrolled = currentScroll > 100;
+  topHeader.classList.toggle("active", shouldToggle);
+  lastScroll = currentScroll;
+});
