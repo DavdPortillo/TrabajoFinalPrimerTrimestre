@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="/images/favicon/icons8-artstation-32.png">
      <title>Offmind</title>
   
 </head>
@@ -22,7 +26,7 @@
             <a href="#home">Home</a>
             <a href="#artists">Artists</a>
             <a href="#paintings">Paintings</a>
-             <a href="#">Eras</a>
+            <a href="#about">About</a>
         </ul>
     </div>
 </div>
@@ -56,7 +60,7 @@
           </a>
           </li>
           <li>
-            <img src="./images/wallpaperbetter.com_1920x1080.jpg">
+            <img src="./images/wallpaperbetter.com_1280x800.jpg">
             
           </li>
           <li >
@@ -229,32 +233,45 @@
   <div class="pintura1">
 
     
-    <div class="imagen1">
-      <img src="./images/1280px-Michelangelo_-_Creation_of_Adam_(cropped).jpg">
+    <div class="imagen1 zoom-effect-container">
+      <img src="/images/1280px-Michelangelo_-_Creation_of_Adam_(cropped).jpg" style="max-width:100%;cursor:pointer"
+      onclick="onClick(this)" class="modal-hover-opacity">
+     
     </div>
-    
+    <div id="modal01" class="modal" onclick="this.style.display='none'">
+      
+      <div class="modal-content">
+        <img id="img01" style="max-width:100%">
+      </div>
+    </div>
+   
    <div class="descripcion1">
     <div class="nombrepintura1">The Creation of Adam</div>
-    <p>The Creation of Adam (Italian: Creazione di Adamo) is a fresco painting by Italian artist Michelangelo, which forms part of the Sistine Chapel's ceiling, painted c. 1508–1512. It illustrates the Biblical creation narrative from the Book of Genesis in which God gives life to Adam, the first man. The fresco is part of a complex iconographic scheme and is chronologically the fourth in the series of panels depicting episodes from Genesis.
-
-      The painting has been reproduced in countless imitations and parodies.[2] Michelangelo's Creation of Adam is one of the most replicated religious paintings of all time.[3]</p>
+    <div class="fechamiguel pinturas">Michelangelo. 1508–1512</div>
+    <p class="adam">God is depicted as an elderly white-bearded man, wrapped in a swirling cloak while Adam, on the lower left, is completely naked. God's right arm is outstretched to impart the spark of life from his own finger into that of Adam, whose left arm is extended in a pose mirroring God's, a reminder that man is created in the image and likeness of God  </p>
    </div>
       
-    </div>
+  </div>
 
 
     <div class="noche">
 
     
-      <div class="imagen3">
-        <img src="./images/Edvard_Munch_-_Vampire_(1895)_-_Google_Art_Project.jpg">
+      <div class="imagen3 zoom-effect-container">
+        <img src="./images/Edvard_Munch_-_Vampire_(1895)_-_Google_Art_Project.jpg" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity">
+       
       </div>
+    
+     
       
-     <div class="textonoche">
-      <div class="autornoche">The Creation of Adam</div>
-      <p>The Creation of Adam (Italian: Creazione di Adamo) is a fresco painting by Italian artist Michelangelo, which forms part of the Sistine Chapel's ceiling, painted c. 1508–1512. It illustrates the Biblical creation narrative from the Book of Genesis in which God gives life to Adam, the first man. The fresco is part of a complex iconographic scheme and is chronologically the fourth in the series of panels depicting episodes from Genesis.
-  
-        The painting has been reproduced in countless imitations and parodies.[2] Michelangelo's Creation of Adam is one of the most replicated religious paintings of all time.[3]</p>
+     <div class="textonoche padd">
+      <div class="autornoche">Love and Pain</div>
+      <div class="fechamiguel">Edvard Munch. 1895</div>
+      <p class="love">The painting shows a woman with long flame-red hair kissing a man on the neck, as the couple embrace. </p> 
+      <p>Although others have seen in it "a man locked in a vampire's tortured embrace  – her molten-red hair running along his soft bare skin," Munch himself always claimed it showed nothing more than "just a woman kissing a man on the neck".
+
+        The painting was first called Vampire by Munch's friend, the critic Stanisław Przybyszewski. Przybyszewski saw the painting on exhibition and described it as "a man who has become submissive, and on his neck a biting vampire's face."</p>
      </div>
         
       </div>
@@ -265,11 +282,16 @@
         
         
         <div class="textonoche">
-          <div class="autornoche">The Creation of Adam</div>
-          <p>Although The Starry Night was painted during the day in Van Gogh's ground-floor studio, it would be inaccurate to state that the picture was painted from memory. The view has been identified as the one from his bedroom window, facing east,[1][2][17][18] a view which Van Gogh painted variations of no fewer than twenty-one times,[citation needed] including The Starry Night. "Through the iron-barred window," he wrote to his brother, Theo, around 23 May 1889, "I can see an enclosed square of wheat ... above which, in the morning, I watch the sun rise in all its glory."Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quia. Ex, in veniam beatae praesentium iure fugiat. Quam, odit cumque culpa eum ex ut debitis, voluptatum harum iure, non sed!</p>
+          <div class="autornoche">Starry Night</div>
+          <div class="fechamiguel">Vincent van Gogh. 1889</div>
+          <p class="love">The view has been identified as the one from his bedroom window, a view which Van Gogh painted variations of no fewer than twenty-one times, including The Starry Night. "Through the iron-barred window," he wrote to his brother, Theo, "I can see an enclosed square of wheat ... above which, in the morning, I watch the sun rise in all its glory." </p>
+          <p>
+            Van Gogh depicted the view at different times of the day and under various weather conditions, such as the sunrise, moonrise, sunshine-filled days, overcast days, windy days, and one day with rain.
+          </p>
          </div>
         <div class="imagen3">
-          <img src="./images/932px-Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg">
+          <img src="./images/932px-Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" style="max-width:100%;cursor:pointer"
+          onclick="onClick(this)" class="modal-hover-opacity">
         </div>
         
      
@@ -281,30 +303,32 @@
 
     
           <div class="imagen3">
-            <img src="./images/928px-Monet_-_Impression,_Sunrise.jpg">
+        
+            <img src="./images/928px-Monet_-_Impression,_Sunrise.jpg" style="max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity">
           </div>
           
-         <div class="textonoche">
-          <div class="autornoche">The Creation of Adam</div>
-          <p>The Creation of Adam (Italian: Creazione di Adamo) is a fresco painting by Italian artist Michelangelo, which forms part of the Sistine Chapel's ceiling, painted c. 1508–1512. It illustrates the Biblical creation narrative from the Book of Genesis in which God gives life to Adam, the first man. The fresco is part of a complex iconographic scheme and is chronologically the fourth in the series of panels depicting episodes from Genesis.
-      
-            The painting has been reproduced in countless imitations and parodies.[2] Michelangelo's Creation of Adam is one of the most replicated religious paintings of all time.[3]</p>
+         <div class="textonoche padd">
+          <div class="autornoche">Impression, Sunrise</div>
+          <div class="fechamiguel conp">Claude Monet. 1872</div>
+          <p class="love">Monet shows us three rowing boats sailing through the port of La Havre, while in the background, between the morning mist and the smoke from the chimneys of the factories, port docks and boats, the sun rises. </p> <p>Monet, trying to capture the atmosphere of nature in a fleeting moment, at the same moment, chooses not to clearly define the outline of the boats and everything is intermingled with the smoke from the chimneys and the mist. In relation to the colors, the cold ones predominate, highlighting the blue and gray tones, thus creating a tenuous mist that surrounds the entire canvas.</p>
          </div>
             
           </div>
 
-        <div class="pintura1">
+        <div class="pintura3">
 
     
           <div class="imagen1">
-            <img src="./images/wallpaperbetter.com_1280x800.jpg">
+            
+            <img src="./images/wallpaperbetter.com_1280x800.jpg" style="max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity">
           </div>
           
          <div class="descripcion1">
-          <div class="nombrepintura1">The Creation of Adam</div>
-          <p>The Creation of Adam (Italian: Creazione di Adamo) is a fresco painting by Italian artist Michelangelo, which forms part of the Sistine Chapel's ceiling, painted c. 1508–1512. It illustrates the Biblical creation narrative from the Book of Genesis in which God gives life to Adam, the first man. The fresco is part of a complex iconographic scheme and is chronologically the fourth in the series of panels depicting episodes from Genesis.
-      
-            The painting has been reproduced in countless imitations and parodies.[2] Michelangelo's Creation of Adam is one of the most replicated religious paintings of all time.[3]</p>
+          <div class="nombrepintura1">The School of Athens</div>
+          <div class="fechamiguel pinturas">Raffaello Sanzio. 1509-1511</div>
+          <p class="wei">Plato and Aristotle seem to be the central figures in the scene. Throughout the Middle Ages they were considered the main representatives of ancient philosophy, they are in the center of the composition, around the vanishing point. Plato is holding the Timaeus. Aristotle holds up a copy of his Nicomachean Ethics. Both discuss the search for Truth and make gestures that correspond to his interests in philosophy: Plato is pointing to the sky, symbolizing the dualistic rationalist idealism that is his thought; while Aristotle, the earth, referring to the teleological rational substantial realism of him.</p>
          </div>
             
           </div>
@@ -315,6 +339,52 @@
 
     
   </div>
+
+  
+  
+   
+  
+      
+ 
+      
+  
+      
+    
+    <footer>
+     
+      <div class="footer" id="about">
+     
+      
+      <div class="row">
+        
+
+     
+     
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+      
+      <div class="row recto">
+      <ul>
+     
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Our Services</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Career</a></li>
+      </ul>
+      </div>
+      
+      <div class="row">
+      Copyright © 2022 All rights reserved
+      </div>
+      </div>
+      </footer>
+      
+  
+  
   
 
 

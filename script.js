@@ -70,3 +70,10 @@ window.addEventListener("scroll", function () {
   topHeader.classList.toggle("active", shouldToggle);
   lastScroll = currentScroll;
 });
+
+
+// modal
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
