@@ -1,0 +1,318 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+   
+  
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+  
+  
+  
+  body{
+  
+  background-color: #140d0f;
+  
+  
+  
+  }
+  
+  
+  
+  .topheader {
+  background: linear-gradient(175deg, rgba(37,34,49,1) 0%, rgba(20,13,15,1) 35%);
+  transition: 0.5s ease;
+  min-height: 100px;
+  top: -100px;
+  }
+  .active {
+  background: linear-gradient(175deg, rgba(37,34,49,1) 0%, rgba(20,13,15,1) 35%);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+  
+  
+  
+  .headerr{ 
+    display: flex;
+    
+    padding-left: 340px;
+    padding-top: 2px;
+    gap: 240px;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 5;
+    
+        
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .logo{
+    padding-left: 20px;
+    padding-top: 10px;
+    
+  }
+  
+  .logo svg{
+    width: 150px;
+   
+  
+  }
+  
+  .nav{
+    display: flex;
+  
+  padding-top: 25px;
+  position: relative;
+  bottom: -2px;
+  
+    
+    
+  }
+  
+  .nav a{
+  
+    text-decoration: none;
+    color: #ffffff;
+    padding: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 11.2px;
+    text-transform: uppercase;
+    letter-spacing:2px
+  }
+  
+  .nav a:after {
+    display: block;
+    
+    content: '';
+    border-bottom: solid 2px #ffffff;
+    transform: scaleX(0);
+    transition: transform 550ms ease-in-out;
+    padding-bottom: 5px;
+  
+  }
+  
+  .nav a:hover:after {
+  transform: scaleX(1);
+  transform-origin: 0 50%;
+  
+  
+  }
+  
+  ul {
+  display: flex;
+  
+  
+  }
+  
+.artistas{
+    display: flex;
+    flex-direction: column;
+  
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    gap: 14px;
+    
+    width: 55%;
+    padding-top: 30px;
+    
+   
+    background-color: #140d0f;
+              
+}	
+
+.artistas h2{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #fcf8f7;
+    letter-spacing:1px;
+}
+
+.miguel{
+  display: flex;
+  color: #fcf8f7;
+  padding-bottom: 90px;
+
+  
+
+  
+}
+
+
+
+.autormiguel{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size:20px;
+    
+    
+}
+
+.fechamiguel{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing:0.4px;
+    color: #7f746e;
+    
+}
+
+
+
+.textomiguel{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  padding-left: 50px;
+  
+  
+  padding-top: 30px;
+  
+  gap: 4px;
+  
+
+ 
+}
+
+.descripcionmiguel{
+  padding-top: 10px;
+ padding-right: 130px;
+ font-family: 'Source Sans Pro', sans-serif;
+ line-height:24px;
+  font-size: 13px;
+ 
+}
+
+.descripcionmiguel p{
+  
+  padding-top: 10px;
+}
+.wei{
+  font-weight: 500;
+}
+
+.miguelnegrita{
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+
+
+footer{
+background-color: #000;
+}
+
+.footer{
+background-color: #000000;
+
+font-family: 'Play', sans-serif;
+text-align:center;
+display: flex;
+flex-direction: column;
+height: 220px;
+
+
+
+}
+
+
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+
+
+
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+
+
+}
+
+.footer .row a:hover{
+color:#fff;
+
+}
+
+.footer .row ul{
+width:100%;
+
+display: flex;
+justify-content: center;
+
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+
+}
+
+
+
+
+
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    /* width of the entire scrollbar */
+    }
+    
+    
+    
+    body::-webkit-scrollbar-thumb {
+    background-color: rgb(164, 164, 175);
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+    border: px solid rgb(168, 165, 159);
+    /* creates padding around scroll thumb */
+    }
+    
