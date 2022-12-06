@@ -42,9 +42,9 @@ top: 0;
 .headerr{ 
   display: flex;
   
-  padding-left: 340px;
+  padding-left: 390px;
   padding-top: 2px;
-  gap: 240px;
+  gap: 210px;
   align-items: center;
   padding-bottom: 10px;
   z-index: 5;
@@ -1229,8 +1229,511 @@ border: px solid rgb(168, 165, 159);
 
 
 
+@media  screen and (max-width: 1440px) {
+  .headerr{ 
+   
+    
+    padding-left: 270px;
+    gap: 150px;
+  
+    
+        
+  }
+  .artistas{
+    
+
+   
+    width: 65%;
+    
+    
+    
+   
+    
+              
+}	
+
+.descripcionmiguel{
+padding-bottom: 30px;
+ 
+}
 
 
+}
+
+
+@media  screen and (max-width: 1280px) {
+  .artistas{
+    
+
+   
+    width: 71%;
+    
+           
+}	
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .headerr{ 
+   
+    
+    padding-left: 120px;
+    gap: 150px;
+  
+    
+        
+  }
+
+  .artistas{
+    
+
+   
+    width: 90%;
+    
+           
+}	
+#my-slider {
+  width: 79%;
+  
+}
+
+ 
+}
+
+
+  
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  
+  
+  .headerr{ 
+   
+    
+    padding-left: 30px;
+  
+    gap: 30px;
+   
+    
+        
+  }
+
+  .miguel{
+    
+
+   flex-direction: column;
+   text-align: center;
+    
+    
+  }
+
+  .artistas{
+    
+
+   
+    width: 60%;
+  }
+
+  .miguel img{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .descripcionmiguel{
+    padding-top: 10px;
+   padding-right: 20px;
+   
+   
+   
+  }
+
+  .textomiguel{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding-left: 20px;
+    
+    
+    padding-top: 30px;
+    
+    gap: 4px;
+    
+  
+   
+  }
+
+  #my-slider {
+    width: 79%;
+    
+  }
+
+  .footer{
+    padding-top: 30px;
+    
+    
+    }
+}
+
+
+
+
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+
+  .topheader {
+    background: linear-gradient(175deg, rgba(37,34,49,1) 0%, rgba(20,13,15,1) 35%);
+    transition: 0.5s ease;
+    min-height: 100px;
+    top: -15px;
+    }
+  .headerr{ 
+ 
+    
+    padding-left: 20px;
+  
+    gap: 30px;
+   
+    
+        
+  }
+
+  .artistas{
+    padding-top: 30px;
+  }
+  h2{
+    font-size: 1rem;
+  }
+p{
+  text-align: start;
+  padding-left: 10px;
+  font-size: 0.8rem;
+}
+ 
+  .logo svg{
+    width: 80px;
+   
+  
+  }
+
+  .nav a{
+    font-size: 9px;
+    padding: 5px;
+  }
+
+ 
+
+  #my-slider {
+    width: 79%;
+    
+  }
+
+  .footer{
+    padding-top: 30px;
+    text-align: center;
+    
+    
+    }
+
+   .miguel{
+    flex-direction: column;
+    text-align: center;
+   
+
+   }
+   
+
+   .miguel img{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .descripcionmiguel{
+    padding-top: 2px;
+   padding-right: 0px;
+   padding-left: 0px;
+   
+   
+   
+  }
+
+  .textomiguel{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding-left: 0px;
+    
+    
+    padding-top: 20px;
+    
+    gap: 4px;
+    
+  
+   
+  }
+
+  .autormiguel{
+    font-size: 18px;
+  }
+  .fechamiguel{
+    font-size: 9px;
+  }
+
+  .footer{
+   font-size: 15px;
+   
+    
+    
+    }
+
+    .recto a{
+
+      padding: 9px;
+    }
+}
+
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+  .topheader {
+    background: linear-gradient(175deg, rgba(37,34,49,1) 0%, rgba(20,13,15,1) 35%);
+    transition: 0.5s ease;
+    min-height: 100px;
+    top: -15px;
+    }
+  .headerr{ 
+ 
+    
+    padding-left: 0px;
+    flex-direction: column;
+    
+    gap: 0px;
+   
+    
+        
+  }
+
+  .artistas{
+
+    padding-top: 50px;
+  }
+p{
+  text-align: start;
+  padding-left: 10px;
+  font-size: 12px;
+}
+ 
+  .logo svg{
+    width: 50px;
+   
+  
+  }
+
+  .logo{
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .nav{
+    padding-top: 0px;
+  }
+
+  .nav a{
+    font-size: 9px;
+    padding: 5px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+ 
+
+  #my-slider {
+    width: 79%;
+    
+  }
+
+  .footer{
+    padding-top: 30px;
+    text-align: center;
+    
+    
+    }
+
+   .miguel{
+    flex-direction: column;
+    text-align: center;
+   
+
+   }
+   
+
+   .miguel img{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .descripcionmiguel{
+    padding-top: 2px;
+   padding-right: 0px;
+   padding-left: 0px;
+   
+   
+   
+  }
+
+  .textomiguel{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding-left: 0px;
+    
+    
+    padding-top: 10px;
+    
+    gap: 4px;
+    
+  
+   
+  }
+
+  .autormiguel{
+    font-size: 18px;
+  }
+  .fechamiguel{
+    font-size: 9px;
+  }
+
+  .footer{
+   font-size: 15px;
+   
+    
+    
+    }
+
+    
+}
+
+
+@media only screen and (device-width: 375px) and (orientation: portrait) {
+  .topheader {
+    background: linear-gradient(175deg, rgba(37,34,49,1) 0%, rgba(20,13,15,1) 35%);
+    transition: 0.5s ease;
+    min-height: 100px;
+    top: -15px;
+    }
+  .headerr{ 
+ 
+    
+    padding-left: 0px;
+    flex-direction: column;
+    
+    gap: 0px;
+   
+    
+        
+  }
+
+  .artistas{
+
+    padding-top: 50px;
+  }
+p{
+  text-align: start;
+  padding-left: 10px;
+  font-size: 12px;
+}
+ 
+  .logo svg{
+    width: 50px;
+   
+  
+  }
+
+  .logo{
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .nav{
+    padding-top: 0px;
+  }
+
+  .nav a{
+    font-size: 9px;
+    padding: 5px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+ 
+
+  #my-slider {
+    width: 79%;
+    
+  }
+
+  .footer{
+    padding-top: 30px;
+    text-align: center;
+    
+    
+    }
+
+   .miguel{
+    flex-direction: column;
+    text-align: center;
+   
+
+   }
+   
+
+   .miguel img{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .descripcionmiguel{
+    padding-top: 2px;
+   padding-right: 0px;
+   padding-left: 0px;
+   
+   
+   
+  }
+
+  .textomiguel{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding-left: 0px;
+    
+    
+    padding-top: 10px;
+    
+    gap: 4px;
+    
+  
+   
+  }
+
+  .autormiguel{
+    font-size: 18px;
+  }
+  .fechamiguel{
+    font-size: 9px;
+  }
+
+  .footer{
+   font-size: 15px;
+   
+    
+    
+    }
+
+    
+}
 
 
 
