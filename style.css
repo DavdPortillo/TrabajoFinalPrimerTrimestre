@@ -18,9 +18,7 @@
    background-color: #140d0f;
 
 
-
  }
-
 
 
 
@@ -45,22 +43,13 @@
 
    padding-left: 390px;
    padding-top: 2px;
-   gap: 210px;
+   gap: 200px;
    align-items: center;
    padding-bottom: 10px;
    z-index: 5;
 
 
  }
-
-
-
-
-
-
-
-
-
 
 
  .logo {
@@ -79,9 +68,8 @@
    display: flex;
 
    padding-top: 25px;
-   position: relative;
-   bottom: -2px;
-
+   
+  
 
 
  }
@@ -93,7 +81,7 @@
    padding: 24px;
    font-family: 'Source Sans Pro', sans-serif;
    font-weight: 700;
-   font-size: 11.2px;
+   font-size: 11px;
    text-transform: uppercase;
    letter-spacing: 2px
  }
@@ -129,9 +117,6 @@
 
 
 
-
-
-
  }
 
  .containerPrincipal {
@@ -146,21 +131,12 @@
 
  .artistas {
    display: flex;
-
    flex-direction: column;
-
    width: 53%;
-
    margin-left: auto;
    margin-right: auto;
-
-
    gap: 14px;
-
-
    padding-top: 90px;
-
-
    background-color: #140d0f;
 
  }
@@ -180,9 +156,6 @@
    display: flex;
    color: #fcf8f7;
    padding-bottom: 90px;
-
-
-
 
 
  }
@@ -214,10 +187,7 @@
    flex-direction: column;
    background-color: #000000;
    padding-left: 50px;
-
-
    padding-top: 30px;
-
    gap: 4px;
 
 
@@ -291,7 +261,6 @@
 
  .footer .row ul {
    width: 100%;
-
    display: flex;
    justify-content: center;
 
@@ -308,12 +277,6 @@
    margin: 0% 1%;
 
  }
-
-
-
-
-
-
 
 
 
@@ -983,7 +946,7 @@
  /* SLIDER */
 
  #my-slider {
-   width: 60%;
+   width: 59%;
    border-radius: 0;
  }
 
@@ -1480,7 +1443,6 @@
  @media screen and (max-width: 1613px) {
    .headerr {
 
-
      padding-left: 290px;
      gap: 150px;
 
@@ -1489,12 +1451,11 @@
    }
 
    .artistas {
-
-
-
      width: 63%;
+   }
 
-
+   #my-slider {
+     width: 70%;
    }
  }
 
@@ -1503,13 +1464,8 @@
 
  @media screen and (max-width: 1440px) {
    .headerr {
-
-
      padding-left: 270px;
      gap: 150px;
-
-
-
    }
 
 
@@ -1519,6 +1475,9 @@
    }
 
 
+   h2 {
+     font-size: 19px;
+   }
 
    .containerPrincipal {
      width: 100%;
@@ -1530,238 +1489,142 @@
      width: 44%;
    }
 
+   #my-slider {
+     width: 70%;
+   }
 
  }
-
-
-
-
 
 
 
  @media screen and (max-width: 1024px) {
 
- 
-  .topheader {
-    background: linear-gradient(175deg, rgba(37, 34, 49, 1) 0%, rgba(20, 13, 15, 1) 35%);
-    transition: 0.5s ease;
-    min-height: 100px;
-    top: -15px;
-  }
 
-  .headerr {
+   .topheader {
+     background: linear-gradient(175deg, rgba(37, 34, 49, 1) 0%, rgba(20, 13, 15, 1) 35%);
+     transition: 0.5s ease;
+     min-height: 100px;
+     top: -15px;
+   }
 
+   .headerr {
+     padding-left: 150px;
+     gap: 100px;
 
-    padding-left: 0px;
-    flex-direction: column;
+   }
 
-    gap: 0px;
+   h3 {
+     text-align: center;
+   }
 
+   .fechamiguel {
+     text-align: center;
+   }
 
+   .artistas {
 
-  }
+     padding-top: 50px;
+     width: 80%;
+   }
 
- 
+   p {
 
-  .artistas {
+     padding-left: 10px;
+     font-size: 12px;
+   }
 
-    padding-top: 50px;
-    width: 90%;
-  }
-
-  p {
-    text-align: start;
-    padding-left: 10px;
-    font-size: 12px;
-  }
-
-  .logo svg {
-    width: 50px;
-
-
-  }
-
-  .logo {
-    padding-top: 0px;
-    padding-left: 0px;
-  }
-
-  .nav {
-    padding-top: 0px;
-  }
-
-  .nav a {
-    font-size: 9px;
-    padding: 5px;
-    padding-bottom: 0px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
+   .logo svg {
+     width: 100px;
 
 
-  #my-slider {
-    width: 94%;
-
-  }
-
-  .footer {
-    padding-top: 30px;
-    text-align: center;
+   }
 
 
-  }
+   .logo {
+     padding-top: 0px;
+     padding-left: 0px;
+   }
 
-  .miguel {
-    flex-direction: column;
-    text-align: center;
+   .nav {
+     padding-top: 0px;
+   }
+
+   .nav a {
+     font-size: 11px;
+     padding: 25px;
+     padding-bottom: 0px;
+   }
+
+   h2 {
+     font-size: 18px;
+   }
 
 
-  }
+   #my-slider {
+     width: 78%;
+
+   }
+
+   .footer {
+     padding-top: 30px;
+     text-align: center;
 
 
-  .miguel img {
-    width: 100%;
-    height: 100%;
+   }
 
-  }
 
-  .descripcionmiguel {
-    padding-top: 2px;
-    padding-right: 0px;
-    padding-left: 0px;
+   .miguel img {
+     width: 50%;
+
+
+   }
+
+   .descripcionmiguel {
+     padding-top: 2px;
+     padding-right: 0px;
+     padding-left: 0px;
 
 
 
-  }
+   }
 
-  .textomiguel {
-    display: flex;
-    flex-direction: column;
-    background-color: #000000;
-    padding-left: 0px;
-
-
-    padding-top: 10px;
-
-    gap: 4px;
+   .textomiguel {
+     display: flex;
+     flex-direction: column;
+     background-color: #000000;
+     padding-left: 0px;
+     padding-top: 10px;
+     gap: 4px;
 
 
 
-  }
+   }
 
-  .autormiguel {
-    font-size: 18px;
-  }
+   .autormiguel {
+     font-size: 18px;
+   }
 
-  .fechamiguel {
-    font-size: 9px;
-  }
+   .fechamiguel {
+     font-size: 9px;
+   }
 
-  .footer {
-    font-size: 15px;
+   .footer {
+     font-size: 15px
+   }
 
+   .footer ul {
 
+     gap: 10px;
+   }
 
-  }
-  .footer ul{
-   flex-direction: column;
-   gap: 10px;
- }
-
+   .row i {
+     padding: 10px;
+   }
 
  }
 
 
-
-
-
-
-
-   
-  
-  
-  
-
-
-
-
-  @media only screen and (device-width: 425px)  {
-  
-    .headerr {
-        
-  
-      padding-left: 0px;
-  
-      gap: 30px;
-  
-      flex-direction: column;
-      
- 
-  
-    }
-
-    .miguel{
-      
-      flex-direction: column;
-      width: 100%;
-    }
-    .textomiguel{
-      padding-left: 0px;
-      padding-right: 0px;
-      
-    }
-
-    .miguel img{
-      width: 100%;
-    }
-
-    footer{
-    
-     width: 100%;
-    }
-
-    .footer ul{
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .nav{
-      padding-top: 0px;
-    }
-
-    .nav a{
-      font-size: 10px;
-      padding: 12px;
-      padding-top: 0px;
-    }
-
-    #my-slider{
-      width: 80%;
-    }
-
-    h2{
-      font-size: 1rem;
-    }
-
-    .textomiguel{
-      text-align: center;
-    }
-  .descripcionmiguel{
-    padding-right: 0px;
-  }
-      
-  p{
-    font-size: 0.75rem;
-  }
-    
-  }
-  
-
-
-
- @media only screen and (device-width: 375px) and (orientation: portrait) {
+ @media screen and (max-width: 768px) {
    .topheader {
      background: linear-gradient(175deg, rgba(37, 34, 49, 1) 0%, rgba(20, 13, 15, 1) 35%);
      transition: 0.5s ease;
@@ -1774,14 +1637,220 @@
 
      padding-left: 0px;
      flex-direction: column;
+     gap: 0px;
 
+   }
+
+
+
+   .artistas {
+
+     padding-top: 50px;
+     width: 70%;
+   }
+
+   p {
+     text-align: center;
+     padding-left: 10px;
+     font-size: 12px;
+   }
+
+   .logo svg {
+     width: 60px;
+
+
+   }
+
+   .logo {
+     padding-top: 0px;
+     padding-left: 0px;
+   }
+
+   .nav {
+     padding-top: 0px;
+   }
+
+   .nav a {
+     font-size: 11px;
+     padding: 9px;
+     padding-bottom: 0px;
+   }
+
+   h2 {
+     font-size: 18px;
+   }
+
+
+   #my-slider {
+     width: 100%;
+
+   }
+
+   .footer {
+     padding-top: 30px;
+     text-align: center;
+
+
+   }
+
+   .footer i {
+     padding: 9px;
+   }
+
+   .miguel {
+     flex-direction: column;
+     text-align: center;
+
+
+   }
+
+
+   .miguel img {
+     width: 100%;
+     height: 100%;
+
+   }
+
+   .descripcionmiguel {
+     padding-top: 2px;
+     padding-right: 0px;
+     padding-left: 0px;
+
+
+
+   }
+
+   .textomiguel {
+     display: flex;
+     flex-direction: column;
+     background-color: #000000;
+     padding-left: 0px;
+     padding-top: 10px;
+     gap: 4px;
+
+
+
+   }
+
+   .autormiguel {
+     font-size: 18px;
+   }
+
+   .fechamiguel {
+     font-size: 9px;
+   }
+
+   .footer {
+     font-size: 15px;
+
+   }
+
+   .footer ul {
+     flex-direction: column;
+     gap: 10px;
+   }
+
+
+ }
+
+
+
+ @media only screen and (device-width: 425px) {
+
+   .headerr {
+     padding-left: 0px;
+     gap: 30px;
+     flex-direction: column;
+
+   }
+
+   .miguel {
+
+     flex-direction: column;
+     width: 100%;
+   }
+
+   .textomiguel {
+     padding-left: 0px;
+     padding-right: 0px;
+
+   }
+
+   .miguel img {
+     width: 100%;
+   }
+
+   footer {
+
+     width: 100%;
+   }
+
+   .footer ul {
+     flex-direction: column;
+     gap: 10px;
+   }
+
+   .nav {
+     padding-top: 0px;
+   }
+
+   .nav a {
+     font-size: 10px;
+     padding: 12px;
+     padding-top: 0px;
+   }
+
+   #my-slider {
+     width: 100%;
+   }
+
+   h2 {
+     font-size: 1rem;
+   }
+
+   .textomiguel {
+     text-align: center;
+   }
+
+   .descripcionmiguel {
+     padding-right: 0px;
+   }
+
+   p {
+     font-size: 0.75rem;
+   }
+
+   .footer i {
+     padding: 10px;
+   }
+
+
+ }
+
+ @media only screen and (device-width: 375px) and (orientation: portrait) {
+   .topheader {
+     background: linear-gradient(175deg, rgba(37, 34, 49, 1) 0%, rgba(20, 13, 15, 1) 35%);
+     transition: 0.5s ease;
+     min-height: 100px;
+     top: -15px;
+   }
+
+   .headerr {
+
+     padding-left: 0px;
+     flex-direction: column;
      gap: 0px;
 
 
 
    }
 
-  
+   .footer i {
+     padding: 10px;
+   }
+
+
+
 
    .artistas {
 
@@ -1820,7 +1889,7 @@
 
 
    #my-slider {
-     width: 79%;
+     width: 100%;
 
    }
 
@@ -1859,10 +1928,7 @@
      flex-direction: column;
      background-color: #000000;
      padding-left: 0px;
-
-
      padding-top: 10px;
-
      gap: 4px;
 
 
@@ -1883,10 +1949,11 @@
 
 
    }
-   .footer ul{
-    flex-direction: column;
-    gap: 10px;
-  }
+
+   .footer ul {
+     flex-direction: column;
+     gap: 10px;
+   }
 
 
  }
@@ -1900,16 +1967,18 @@
    }
 
    .headerr {
-
-
      padding-left: 0px;
      flex-direction: column;
-
      gap: 0px;
 
 
 
    }
+
+   .footer i {
+     padding: 10px;
+   }
+
 
    .artistas {
 
@@ -1948,7 +2017,7 @@
 
 
    #my-slider {
-     width: 79%;
+     width: 100%;
 
    }
 
@@ -1987,10 +2056,7 @@
      flex-direction: column;
      background-color: #000000;
      padding-left: 0px;
-
-
      padding-top: 10px;
-
      gap: 4px;
 
 
@@ -2011,10 +2077,11 @@
 
 
    }
-   .footer ul{
-    flex-direction: column;
-    gap: 10px;
-  }
+
+   .footer ul {
+     flex-direction: column;
+     gap: 10px;
+   }
 
 
  }
