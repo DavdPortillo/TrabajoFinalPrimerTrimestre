@@ -495,11 +495,28 @@ body::-webkit-scrollbar {
 
   }
 
+  h2{
+    margin-left: -190px;
+
+  }
+
   .artistas {
     width: 63%;
   }
 
   #my-slider {
+    width: 70%;
+  }
+
+  .pintura1{
+    width: 70%;
+  }
+
+  .noche{
+    width: 70%;
+  }
+
+  .pintura3{
     width: 70%;
   }
 }

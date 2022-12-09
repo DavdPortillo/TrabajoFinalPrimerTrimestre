@@ -234,6 +234,10 @@ body::-webkit-scrollbar-thumb {
 
 
   }
+  h2{
+    
+    margin-left: -110px;
+  }
 
   .artistas {
     width: 63%;
@@ -241,6 +245,10 @@ body::-webkit-scrollbar-thumb {
 
   #my-slider {
     width: 70%;
+  }
+
+  .noche{
+    width: 78%;
   }
 }
 
