@@ -27,6 +27,7 @@
    transition: 0.5s ease;
    min-height: 100px;
    top: -100px;
+ 
  }
 
  .active {
@@ -67,6 +68,7 @@
  .nav {
    display: flex;
 
+  
    padding-top: 25px;
    
   
@@ -106,6 +108,7 @@
 
  ul {
    display: flex;
+   
 
 
  }
@@ -1495,6 +1498,9 @@
 
  }
 
+ 
+
+
 
 
  @media screen and (max-width: 1024px) {
@@ -1630,23 +1636,29 @@
      transition: 0.5s ease;
      min-height: 100px;
      top: -15px;
+     padding-left: 0px
    }
+   
 
    .headerr {
 
 
-     padding-left: 0px;
-     flex-direction: column;
+   flex-direction: column;
+     
      gap: 0px;
+     padding-top: 10px;
+    
 
    }
+
+   
 
 
 
    .artistas {
 
      padding-top: 50px;
-     width: 70%;
+     width: 100%;
    }
 
    p {
@@ -1656,7 +1668,8 @@
    }
 
    .logo svg {
-     width: 60px;
+     width: 90px;
+     
 
 
    }
@@ -1687,7 +1700,7 @@
    }
 
    .footer {
-     padding-top: 30px;
+      padding-top: 0px;  
      text-align: center;
 
 
@@ -1747,13 +1760,18 @@
 
    .footer ul {
      flex-direction: column;
-     gap: 10px;
+    
+   }
+
+   .row{
+    background-color: #000;
+   
    }
 
 
+
+
  }
-
-
 
  @media only screen and (device-width: 425px) {
 
@@ -1824,6 +1842,14 @@
      padding: 10px;
    }
 
+   .artistas{
+    width: 100%;
+   }
+
+   .row{
+    background-color: #000;
+   }
+
 
  }
 
@@ -1853,7 +1879,9 @@
 
 
    .artistas {
-
+    
+      width: 100%;
+     
      padding-top: 50px;
    }
 
@@ -1954,6 +1982,9 @@
      flex-direction: column;
      gap: 10px;
    }
+   .row{
+    background-color: #000;
+   }
 
 
  }
@@ -1981,7 +2012,7 @@
 
 
    .artistas {
-
+    width: 100%;
      padding-top: 50px;
    }
 
@@ -2078,6 +2109,9 @@
 
    }
 
+   .row{
+    background-color: #000;
+   }
    .footer ul {
      flex-direction: column;
      gap: 10px;
