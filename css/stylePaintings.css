@@ -38,17 +38,17 @@
     
     
     
-    .headerr{ 
+    .headerr {
       display: flex;
-      
-      padding-left: 340px;
+   
+      padding-left: 390px;
       padding-top: 2px;
-      gap: 240px;
+      gap: 200px;
       align-items: center;
       padding-bottom: 10px;
       z-index: 5;
-      
-          
+   
+   
     }
     
     
