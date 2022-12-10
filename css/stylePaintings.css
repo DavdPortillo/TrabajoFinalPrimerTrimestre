@@ -212,7 +212,7 @@
       padding-left: 70px;
       padding-top: 20px;
       font-family: 'Source Sans Pro', sans-serif;
-      font-weight: 700;
+      font-weight: 400;
       font-size: 14px;
       line-height: 24px;
       padding-bottom: 30px;
@@ -265,6 +265,7 @@
       gap: 4px;
       padding-right: 120px;
       font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 500;
       line-height: 24px;
       font-size: 14px;
       flex: 50%;
@@ -723,6 +724,7 @@ body::-webkit-scrollbar {
   .textonoche{
     padding-left: 10px;
     padding-right:10px;
+    
   }
 
   .pintura3{
@@ -764,7 +766,7 @@ body::-webkit-scrollbar {
 
   p {
     text-align: center;
-    padding-left: 10px;
+    padding-left: 0px;
     font-size: 12px;
   }
 
@@ -911,8 +913,16 @@ body::-webkit-scrollbar {
   .pintura3{
     width: 100%;
   }
+  .textonoche{
+    padding-left: 6px;
+    padding-right: 6px;
+  
+  }
 
-
+  .adam{
+   padding-left: 5px;
+    padding-right: 5px;
+  }
 
 }
 
@@ -979,6 +989,7 @@ body::-webkit-scrollbar {
 
   p {
     font-size: 0.75rem;
+    padding-left: 0px;
   }
 
   .footer i {
@@ -993,6 +1004,9 @@ body::-webkit-scrollbar {
    background-color: #000;
   }
 
+.textonoche{
+  padding-left: 6px;
+  padding-right: 6px;
 
 }
 
@@ -1261,4 +1275,5 @@ body::-webkit-scrollbar {
   }
 
 
+}
 }

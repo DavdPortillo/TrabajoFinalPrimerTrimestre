@@ -125,7 +125,6 @@ ul {
   background-color: #000000;
   padding-left: 50px;
   padding-top: 30px;
-  gap: 4px;
   padding-right: 120px;
   font-family: "Source Sans Pro", sans-serif;
   line-height: 24px;
@@ -488,7 +487,7 @@ body::-webkit-scrollbar-thumb {
 
   p {
     text-align: center;
-    padding-left: 10px;
+    padding-left: 0px;
     font-size: 12px;
   }
 
@@ -633,8 +632,12 @@ body::-webkit-scrollbar-thumb {
   }
 
   .pintura3{
-    width: 100%;
-  }
+    width: 100%; }
+
+    .textonoche{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
 
 
@@ -753,8 +756,8 @@ body::-webkit-scrollbar-thumb {
   }
 
   p {
-    text-align: start;
-    padding-left: 10px;
+    text-align: center;
+    padding-left: 0px;
     font-size: 12px;
   }
 
@@ -810,6 +813,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .descripcionmiguel {
+    
     padding-top: 2px;
     padding-right: 0px;
     padding-left: 0px;
@@ -854,7 +858,9 @@ body::-webkit-scrollbar-thumb {
   }
 
 
-}
+ }
+
+
 
 @media only screen and (device-width: 320px) and (orientation: portrait) {
   .topheader {
@@ -884,8 +890,8 @@ body::-webkit-scrollbar-thumb {
   }
 
   p {
-    text-align: start;
-    padding-left: 10px;
+    text-align: center;
+    padding-left: 0px;
     font-size: 12px;
   }
 

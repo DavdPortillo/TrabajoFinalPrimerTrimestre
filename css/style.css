@@ -1664,8 +1664,11 @@
    p {
      text-align: center;
      padding-left: 10px;
+     padding-right: 10px;
      font-size: 12px;
    }
+
+
 
    .logo svg {
      width: 90px;
@@ -1691,6 +1694,7 @@
 
    h2 {
      font-size: 18px;
+     text-align: center;
    }
 
 
@@ -1886,7 +1890,7 @@
    }
 
    p {
-     text-align: start;
+     text-align: center;	
      padding-left: 10px;
      font-size: 12px;
    }
@@ -2017,7 +2021,7 @@
    }
 
    p {
-     text-align: start;
+     text-align: center;
      padding-left: 10px;
      font-size: 12px;
    }
