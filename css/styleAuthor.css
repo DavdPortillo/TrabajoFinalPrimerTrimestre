@@ -207,6 +207,10 @@ footer {
   margin: 0% 1%;
 }
 
+img{
+  object-fit: cover;
+}
+
 
 
 body::-webkit-scrollbar {
