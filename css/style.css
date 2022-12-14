@@ -76,6 +76,10 @@
 
  }
 
+ img{
+  object-fit: cover;
+ }
+
  .nav a {
 
    text-decoration: none;
