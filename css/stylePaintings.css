@@ -588,7 +588,7 @@ body::-webkit-scrollbar {
   }
 
   .headerr {
-    padding-left: 150px;
+    padding-left: 190px;
     gap: 100px;
 
   }
@@ -731,6 +731,8 @@ body::-webkit-scrollbar {
     width: 80%;
   }
 }
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -926,6 +928,9 @@ body::-webkit-scrollbar {
   }
 
 }
+
+
+
 
 @media only screen and (device-width: 425px) {
 
